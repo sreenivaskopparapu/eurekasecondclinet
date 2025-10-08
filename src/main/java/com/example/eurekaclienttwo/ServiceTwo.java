@@ -13,7 +13,7 @@ public class ServiceTwo {
 
 	@GetMapping("/getMobileNumber/{mobile}")
 	public String serviceTwo(@PathVariable("mobile") String mobileNumber) {
-		
+		//http://localhost:8042/serviceTwo/getMobileNumber/9573330910
 		return "response from service two mobile no is:"+mobileNumber;
 	}
 	@GetMapping("/getCityName")
